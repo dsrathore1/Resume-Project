@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+/* Applied on all */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fredoka', sans-serif;
+}
+
+/* Hide scrollbar */
+::-webkit-scrollbar {
+    display: none;
+}
+
+/* Main Containers */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mainContainer {
+    background: #fff;
+    height: 100vh;
+    width: 100vw;
+    border-radius: 10px;
+}
+
+
+/* Navbar */
+.nav {
+    background: #2196F3;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 3rem;
+    color: #fff;
+    box-shadow: 0 4px 9px 0 #eeeeeede;
+}
+
+.logo {
+    font-family: 'Caveat', cursive;
+    font-size: 18px;
+}
+
+.D {
+    border-radius: 50%;
+    padding: 4px 12px;
+    margin-right: 6px;
+    font-size: 20px;
+    background: #2196F3;
+    box-shadow: inset 2px 12px 45px #1d86d8,
+        inset -22px -22px 45px #43b1fa;
+    font-family: 'Pacifico', cursive;
+}
+
+.dataPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background: #2196F3;
+    box-shadow: inset 22px 22px 45px #1d86d8,
+        inset -22px -22px 45px #43b1fa;
+    color: #fff;
+    text-decoration: none;
+    padding: 0 2rem;
+    border: none;
+    outline: none;
+    border-radius: 9px;
+}
+
+h2 {
+    cursor: default;
+}
+
+.heading1 {
+    margin-top: 2rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #4b4b4b;
+    cursor: default;
+}
+
+.para {
+    text-align: center;
+    color: #a9a9a9;
+    cursor: default;
+}
+
+.part {
+    color: #00ffff;
+}
+
+
+.detailContainer {
+    padding: 2rem 3rem;
+    width: 100vw;
+}
+
+.headings {
+    display: flex;
+    align-items: center;
+    margin-top: 3rem;
+    cursor: default;
+}
+
+.heading2 {
+    padding: 12px 20px;
+    margin-right: 1rem;
+    border: 2px solid #bbb;
+    border-radius: 50%;
+    color: #a9a9a9;
+    cursor: default;
+}
+
+.heading3 {
+    color: #5e5e5e;
+    cursor: default;
+}
+
+/* Label Field */
+label {
+    text-transform: uppercase;
+    width: 12%;
+}
+
+.details {
+    margin-left: 8rem;
+    margin-top: 2rem;
+    font-size: 15px;
+    color: gray;
+}
+
+.note {
+    font-size: 9px;
+    font-style: italic;
+}
+
+/* Input Field */
+input {
+    margin-left: 2rem;
+    padding: 8px 4px;
+    width: 100%;
+    border-bottom: 1px solid #bbb;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    outline: none;
+    font-size: 18px;
+}
+
+/* Text Area Field */
+textarea {
+    width: 100%;
+    padding: 5px 6px;
+    font-size: 18px;
+    margin-left: 2rem;
+    font-size: 18px;
+}
+
+/* Personal Information */
+.position {
+    width: 100%;
+    padding: 5px 6px;
+    font-size: 18px;
+    margin-left: 2rem;
+    font-size: 18px;
+}
+
+
+.nameContainer {
+    display: flex;
+    align-items: center;
+}
+
+.name {
+    text-transform: uppercase;
+}
+
+.emailContainer {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.ageContainer {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.numberContainer {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+/* Professional Information Style */
+
+.summaryContainer {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+
+.qualificationContainer {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+
+.achievementContainer {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.workExContainer {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.skillsContainer {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.hobbiesContainer {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.aftpContainer {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+
+.addressContainer {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+/* Upload Container */
+.uploadsContainer {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.photoUpload {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    margin-right: 12px;
+}
+
+.signatureUpload {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin-left: 12px;
+}
+
+.photo {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-weight: 600;
+}
+
+
+/* Generate Button */
+.genButton {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.generateButton {
+    width: 13%;
+    padding: 10px 15px;
+    font-size: 18px;
+    background: #2196F3;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+.generateButton:hover {
+    background: transparent;
+    color: #2196F3;
+    border: 1px solid #2196F3;
+    margin: 1rem 0;
+}
+
+.generateButton:active {
+    transform: scale(.9);
+}
+
+/* Contact Link */
+.contactContainer {
+    margin-top: 2rem;
+    width: 70%;
+}
+
+.githubContainer {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 1.2rem 0;
+}
+
+.instaContainer {
+    display: flex;
+    margin: 1.2rem 0;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.twitterContainer {
+    display: flex;
+    margin: 1.2rem 0;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.linkInputContainer {
+    border: 1px solid #bbb;
+    border-radius: 3px;
+    padding: 10px 9px;
+}
+
+.para1 {
+    width: 20%;
+    cursor: default;
+    font-size: 19px;
+}
+
+/* Icon Field */
+i {
+    font-size: 2rem;
+    margin-right: 2rem;
+}
+
+/* Footer Field */
+footer {
+    text-align: center;
+    background: #2b2b2b;
+    color: #fff;
+    padding: 1rem 0;
+    font-size: 20px;
+
+}
