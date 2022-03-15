@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 const userSchema = new mongoose.Schema({
-    name: { type: String, trim: true, required: true },
+    name: { type: String, trim: true },
     email: { type: String },
     number: { type: Number },
     dob: { type: Date },
@@ -17,9 +17,9 @@ const userSchema = new mongoose.Schema({
     github: { type: String },
     linkedin: { type: String },
     twitter: { type: String },
-    // profileImage:{type:},
-    // signatureImage:{type:}
-});
+    profileImage: { type: String },
+    signatureImage: { type: String }
+}, { timestamps: Date.now });
 
 const userModel = new mongoose.model("resumeData", userSchema);
 

@@ -19,7 +19,7 @@
                 can
                 make resume here and get you future's job.</p>
         </div>
-        <form action="/templatePage" method="POST">
+        <form action="/templatePage" method="POST" enctype="multipart/form-data">
             <!-- Personal Details Container -->
             <div class="detailContainer">
                 <div class="headings">
@@ -37,7 +37,7 @@
                     </div>
                     <div class="numberContainer">
                         <label>Mobile Number</label>
-                        <input type="number" class="num" name="number" placeholder="656********">
+                        <input type="number" min="10" max="10" class="num" name="number" placeholder="656********">
                     </div>
                     <div class="ageContainer">
                         <label>Date of birth<br><span class="note"> as per your passport</span></label>
